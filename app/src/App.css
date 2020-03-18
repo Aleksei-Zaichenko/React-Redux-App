@@ -1,3 +1,19 @@
 .App {
   text-align: center;
 }
+
+.productList{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.productList .item{
+  width: 22%;
+  border: 1px solid gainsboro;
+  margin: 1%;
+}
+
+.productList .item .productImage{
+  max-height: 200px;
+  max-width: 200px;
+}

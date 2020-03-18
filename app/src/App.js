@@ -15,6 +15,7 @@ function App() {
   return (
     <Provider store={store}>
       <div className="App">
+      <h1>Fancy MakeUp</h1>
         <MakeupForm />
         <MakeupList />
       </div>
